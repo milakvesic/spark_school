@@ -1,0 +1,302 @@
+
+header{
+    width: 100%;
+    height: 80px;
+    top:0;
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+.izbornik{
+    list-style-type: none;
+    cursor: pointer;
+    margin:0;
+    top:0;
+    padding:0px;
+    position: relative;
+    display: inline;
+}
+.izbornik ul{
+    list-style: none;
+    display: inline;
+    display: inline-block;
+    list-style: none;
+}
+.izbornik li, a{
+    list-style: none;
+    display: inline;
+    display: inline-block;
+    list-style: none;
+    margin-left: 50px;
+}
+.search {
+    position: relative;
+    float: right;
+    width: 350px;
+    padding: 11px 15px;
+    margin-top: 24px;
+    background-color: #d0d4d7;
+    border-radius: 30px;
+}
+.search-input {
+    float: left;
+    width: 90%;
+    color: #828282;
+    font-size: 14px;
+    background-color:white;
+}
+.search-icon {
+    float: right;
+    width: 20px;
+    height: 20px;
+    background: url(images/icons-20.png) 0 0 no-repeat;
+    cursor: pointer;
+}
+.banner{ 
+    background-image: url("images/poster.jpg");
+    height: 300px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+#lijeva{
+    position: absolute;
+    background: url("images/icons-100.png") 0px 0px;
+    height: 100px;
+    width: 100px;
+    margin: 0;
+    left: 15px;
+    top: 150px;   
+}
+#desna{
+    position: absolute;
+    background: url("images/icons-100.png") 0px 100px;
+    right: 15px;
+    top: 150px;
+    height: 100px;
+    width: 100px;   
+}
+.container{
+    color: white;
+    height: 100%;
+    width: 100%;
+}
+.Btnapplay{
+    background-color: orange;
+    border: 0;
+    text-align: center;
+    border-radius: 18px;
+    text-align: center;
+    width: 150px;
+}
+.Btnapplay:hover{
+    background-color: red;
+}
+h2{
+    font-size: 30;
+}
+p{
+    font-size: 30;
+}
+.h1{
+    font-size: 20;
+}
+
+.container-fluid{
+    width: 60%;
+}
+#Meg{
+    width: 80px;
+    height: 80px;
+    background: url("/home/marin/Downloads/example page-20190926/example/css/images/icons-80.png") 0px 0px;
+}
+#Cool{
+    width: 80px;
+    height: 80px;
+    background: url("/home/marin/Downloads/example page-20190926/example/css/images/icons-80.png") 80px 160px;
+}
+#Not{
+    background: url("/home/marin/Downloads/example page-20190926/example/css/images/icons-80.png") 80px 80px;
+    width: 80px;
+    height: 80px;
+}
+.paragraf{
+    font-size: 40;
+    padding: 20px;
+}
+.crta{
+    border: gray;
+    width: 90%;
+    border-style: outset;
+    border:1;
+}
+a{
+    color: orange;
+}
+.donja{
+    border: solid rosybrown;
+    width: 100%;
+}
+.ulica{
+    background-image: url("/home/marin/Downloads/example page-20190926/example/css/images/paralax.jpg");
+    width: 100%;
+    background-position: center;
+    height: 600px;
+    background-size: cover;
+}
+.subscribe{
+    position: relative;
+}
+.tekst{
+    color:white;
+    text-align: center;
+    font-size: 30px;
+    top: 50px;
+    position: relative;
+}
+#tablica{
+margin-left: 400px;
+top: 80px;
+height:120px;
+width:50%;
+position: relative;
+background-color:white;
+}
+td{
+    width:75%;
+    position: relative;
+    text-align: center;
+    vertical-align: middle;
+}
+.vertikala{
+    position: absolute;
+    border-left: 1px solid green;
+    left: 60%;
+    height: 80px;
+    top:20px
+}
+#email{
+    background-color: beige;
+    border-radius: 20px;
+    width: 200px;
+    text-align: center;
+    border: none;
+}
+#znak{
+    background: url("images/icons-20.png") 40px 20px;
+    width: 20px;
+    height: 20px;
+    float: right;
+}
+#klasa{
+    background-color: orange;
+    color: white;
+    position: absolute;
+    z-index: 999;
+    margin-left: 400px;
+    bottom: 300px;
+    width: 60%;
+    height: 300px;
+    top: 1300px;
+}   
+.ime{
+  
+    width:300px;
+    text-align: center;
+    border: 1px solid orange ;
+
+}
+.message{
+   
+    width: 300px;
+    height: 100px;
+    text-align: center;
+    border: 1px solid orange;
+}
+#Send{
+    width:150px;
+    border-radius: 15px;
+    border: none;
+    background-color: white;
+    text-align: center;
+}
+.contact-item-rating-item {
+    float: left;
+    width: 40px;
+    height: 40px;
+    background: url(images/icons-40.png) no-repeat 0 -200px;
+    cursor: pointer;
+}
+#active{
+    background: url(images/icons-40.png) no-repeat 0 -160px;
+}
+#comment{
+    width: 300px;
+    height: 60px;
+    border: 1px solid orange;
+}
+#done{
+    width:150px;
+    border-radius: 15px;
+    border: none;
+    background-color: white;
+    text-align: center;
+}
+#str{background: url("images/icons-20.png") 40px 20px;
+    width: 20px;
+    height: 20px;
+    float: right;
+
+}
+#Copyright{
+    left: 200px;
+    color:gray;
+    display: inline;
+    position: absolute;
+    top: 50px;
+}
+#Spark{
+    left: 280px;
+    color: orange;
+    display: inline;
+    position: relative;
+    top: 50px;
+}
+footer{
+    width: 100%;
+    height: 80px;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+}
+.lista{
+    float: right;
+    width: 30%;
+    margin: 42px 0;
+}
+/* .lista ul{
+    overflow: auto;
+} */
+.lista li{
+    float: right;
+}
+.lista li,a{
+    display: block;
+    width: 40px;
+    height: 40px;
+    background-repeat: no-repeat
+}
+#Twitter{
+    background:  url(images/icons-40.png)0px 0px;
+    
+}
+#Instagram{
+    background: url(images/icons-40.png) 0px -40px;    
+}
+#Facebook{
+    background: url(images/icons-40.png)0px -80px;
+}
+#Google{
+    background: url(images/icons-40.png) 0px -120px;
+}
